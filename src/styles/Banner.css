@@ -1,0 +1,82 @@
+.banner-home, .banner-about {
+    border-radius: 25px;
+    height: 225px;
+    margin: 49.37px 0 43px 0;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .banner-home {
+    background-image: url("../assets/bannerHome.png");
+    background-position: center;
+  }
+  
+  
+  .banner-about {
+    background-image: url("../assets/bannerAbout.png");
+    background-position: center;
+  }
+  
+  .banner-img {
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .banner-sombre {
+    background-color: #000000;
+    border-radius: 25px;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .banner-txt {
+    color: #ffffff;
+    font-size: 40px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media screen and (min-width: 375px) and ( max-width: 767px) {
+  
+    .banner-home {
+      border-radius: 10px;
+      height: 111px;
+      margin: 0;
+      margin-bottom: 23px;
+      position: relative;
+    }
+  
+    .banner-about {
+      border-radius: 10px;
+      height: 223px;
+      margin: 0;
+      margin-bottom: 23px;
+      position: relative;
+      background-image: url("../assets/BannerAboutMobile.png"); 
+    }
+    
+    .banner-img {
+      border-radius: 10px;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+    
+    .banner-sombre {
+      border-radius: 10px;
+    }
+  
+    .banner-txt {
+      font-size: 10px;
+      line-height: 28px;
+    }
+  }
