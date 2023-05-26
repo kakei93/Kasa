@@ -1,11 +1,11 @@
 body {
-  margin: 40px 100px;
+  margin: 0;
   font-family: "Montserrat", Arial, sans-serif;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 375px) and ( max-width: 767px) {
   body {
-    margin: 20px;
+    margin: 0;
   }
 }

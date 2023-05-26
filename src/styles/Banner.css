@@ -1,7 +1,7 @@
 .banner-home, .banner-about {
     border-radius: 25px;
     height: 225px;
-    margin: 49.37px 0 43px 0;
+    margin: 45px 40px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
   
   .banner-txt {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
     left: 50%;
     position: absolute;
     top: 50%;

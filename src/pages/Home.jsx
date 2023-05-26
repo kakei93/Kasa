@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Card from "../components/Cards";
+import Footer from "../components/footer";
 import "../styles/Home.css";
 
 
@@ -23,9 +24,10 @@ const Home = () => {
                             {" "}
                             <Card logements={logements} />
                         </NavLink>
-          );
-        })}
-      </div>
+                            );
+                })}
+            </div>
+            <Footer />
         </div>
     )
 }

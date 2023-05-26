@@ -1,10 +1,5 @@
 .header {
-    /* left: 75.08%;
-    right: 13.95%;
-    top: 25%;
-    bottom: 25%; */
-    width: 100%;
-    
+    margin: 0 40px;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -36,6 +31,10 @@
     
     @media screen and (min-width: 375px) and ( max-width: 767px) {
     
+        .header {
+            margin: 0 40px;
+        }
+        
         .logo-image {
           height: 43px;
         }
