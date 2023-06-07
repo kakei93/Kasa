@@ -1,0 +1,13 @@
+.collapse {
+    width: 80%;
+}
+
+
+@media screen and (min-width: 375px) and ( max-width: 767px) {
+
+
+    .collapse {
+        width: 85%;
+    }
+
+}

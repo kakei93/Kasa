@@ -3,7 +3,7 @@ import '../styles/Banner.css'
 function Banner({ titre, home }) {
     return (
       <div className={home ? "banner-home" : "banner-about"}>
-        <div className="banner-sombre"></div>
+        <div className="banner-dark"></div>
         <span className="banner-txt">{titre}</span>
       </div>
     );
