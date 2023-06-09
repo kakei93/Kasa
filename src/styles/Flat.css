@@ -123,12 +123,11 @@
       height: 16px;
     }
     
-    .description-equipement {
+    .description-equipment {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: stretch;
-      margin: 25px 10px 0;
       gap: 0;
     }
   }

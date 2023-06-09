@@ -2,7 +2,7 @@
     border-radius: 5px;
     margin: 35px auto;
     text-align: left;
-    width: 80%;
+    width: 100%;
   }
   
   .header-collapse {
@@ -42,40 +42,20 @@
     background-color: #f6f6f6;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: 100%;
     color: #ff6060;
-    height: 80%;
-    font-size: 16px;
+    list-style-type: none;
+    height: 70%;
+    font-size: 18px;
     margin-top: -10px;
-    min-height: 100px;
-    padding: 25px 5px 0px 20px;
-    display: flex;
-    flex-direction: column;
+    min-height: 120px;
+    padding: 25px 0px 10px 0px;
   }
-
-  .product-collapse {
-    border-radius: 5px;
-    margin: 35px auto;
-    text-align: left;
-    width: 95%;
-    display: flex;
-  }
-
 
   @media screen and (min-width: 375px) and ( max-width: 767px) {
     .collapse {
         display: flex;
         flex-wrap: wrap;
     }
-
-    .product-collapse {
-        border-radius: 5px;
-        margin: 35px auto;
-        text-align: left;
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-      }
-    
-    
 
   }

@@ -52,8 +52,8 @@ const Flat = () => {
         />
         <Collapse
           titre={"Équipements"}
-          description={logement.equipments.map((equipement, c) => (
-            <li key={c}> {equipement} </li>
+          description={logement.equipments.map((equipement, i) => (
+            <li key={i}> {equipement} </li>
           ))}
         />
       </div>

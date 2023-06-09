@@ -8,7 +8,7 @@ function Collapse({titre, description}) {
     const [open, setOpen] = useState(false);
 
     return(
-        <div className="collapse" id={`collapse-${titre}`}>
+        <div className="collapse">
             <div className="header-collapse">
                 <div className="titre-collapse">{titre}</div>
                 <span className={`arrow-collapse ${open}`} onClick={() => setOpen(!open)}>

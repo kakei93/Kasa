@@ -43,6 +43,7 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
   }
   
   @media screen and (min-width: 375px) and ( max-width: 767px) {
@@ -58,7 +59,7 @@
     .banner-about {
       border-radius: 10px;
       height: 223px;
-      margin: 45px 33px;
+      margin: 45px 40px;
       position: relative;
       background-image: url("../assets/BannerAboutMobile.png"); 
     }

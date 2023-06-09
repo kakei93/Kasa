@@ -1,13 +1,16 @@
 .collapse {
-    width: 80%;
+    width: 100%;
 }
 
+.about-data {
+    margin: 0 40px;
+}
 
 @media screen and (min-width: 375px) and ( max-width: 767px) {
 
 
     .collapse {
-        width: 85%;
+        width: 100%;
     }
 
 }

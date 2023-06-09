@@ -1,11 +1,12 @@
 .info-logement-tags {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .tag-display {
     border: solid 1px #FF6060;
-    width: 125px;
+    width: 140px;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -15,6 +16,10 @@
     background-color: #FF6060;
     color: #FFFFFF;
     margin-right: 10px;
+  }
+
+  .tag {
+    margin-top: 10px;
   }
   
   @media screen and (min-width: 375px) and ( max-width: 767px) {
