@@ -10,9 +10,9 @@ const Rating = ({ rate }) => {
     <div className="allStars">
       {stars.map((el) =>
         el < rate ? (
-          <img className="stars" key={el} src={RedStar} alt="étoiles rouges" />
+          <img className="stars" key={el} src={RedStar} alt="les étoiles rouges" />
         ) : (
-          <img className="stars" key={el} src={GreyStar} alt="étoiles grises" />
+          <img className="stars" key={el} src={GreyStar} alt="les étoiles grises" />
         )
       )}
     </div>

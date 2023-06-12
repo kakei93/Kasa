@@ -23,7 +23,7 @@
     position: absolute;
   }
   
-  .card-titre {
+  .card-title {
     display: flex;
     align-items: flex-end;
     position: absolute;
@@ -42,7 +42,7 @@
       margin-bottom: 20px;
     }
   
-    .card-titre {
+    .card-title {
       top: -85px;
     }
   }

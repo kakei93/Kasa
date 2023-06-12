@@ -10,7 +10,7 @@ const Cards = ({ logements }) => {
         alt={"photo " + logements.title}
       />
       <div className="card-bg"></div>
-      <h4 className="card-titre"> {logements.title} </h4>
+      <h4 className="card-title"> {logements.title} </h4>
     </div>
   );
 };
