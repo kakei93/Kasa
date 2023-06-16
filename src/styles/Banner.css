@@ -1,7 +1,7 @@
 .banner-home, .banner-about {
     border-radius: 25px;
     height: 225px;
-    margin: 45px 40px;
+    margin: 45px 100px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,12 +38,19 @@
   
   .banner-txt {
     color: #ffffff;
-    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    white-space: nowrap;
+    line-height: 68px;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+    margin: 0 0 0 9px;
   }
   
   @media screen and (min-width: 375px) and ( max-width: 767px) {
@@ -51,7 +58,7 @@
     .banner-home {
       border-radius: 10px;
       height: 115px;
-      margin: 0 40px; 
+      margin: 0 20px; 
       margin-bottom: 23px;
       position: relative;
     }
@@ -59,7 +66,7 @@
     .banner-about {
       border-radius: 10px;
       height: 223px;
-      margin: 45px 40px;
+      margin: 45px 20px;
       position: relative;
       background-image: url("../assets/BannerAboutMobile.png"); 
     }
@@ -76,7 +83,10 @@
     }
   
     .banner-txt {
-      font-size: 20px;
-      line-height: 28px;
+      font-size: 24px;
+      line-height: 24px;
+      width: 65%;
+      left: 33%;
     }
-  }
+
+}

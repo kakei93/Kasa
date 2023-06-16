@@ -1,7 +1,7 @@
 .info-logement {
     display: flex;
     justify-content: space-between;
-    margin: 30px 40px 0;
+    margin: 30px 100px 0;
   }
   
   .info-logement-info {
@@ -11,13 +11,15 @@
   .info-logement-title {
     margin: 0;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 500;
+    font-style: normal;
   }
   
   .info-logement-location {
     margin-top: 5px;
+    font-style: normal;
+    font-weight: 500;
     font-size: 18px;
-    font-weight: 100;
   }
   
   .info-logement-host {
@@ -33,10 +35,13 @@
     text-align: center;
     width: 93px;
     height: 52px;
-    font-size: 18px;
+    font-style: normal;
     font-weight: 500;
+    font-size: 18px;
     color: #FF6060;
     margin-right: 10.5px;
+    text-align: right;
+    line-height: 26px;
   }
   
   .host-picture {
@@ -51,15 +56,12 @@
     margin-top: 20px;
   }
   
-  .stars {
-    margin-left: 10px;
-  }
   
   .description-equipment {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    margin: 26px 40px 0;
+    margin: 26px 100px 0;
     gap: 70px;
   }
   
@@ -68,16 +70,18 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-top: 15px;
+      margin: 15px 20px 0px;
     }
     
     .info-logement-info {
       color: #FF6060;
     }
     
-    .info-logement-titre {
+    .info-logement-title {
       margin: 0;
       font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
     }
     
     .info-logement-location {
@@ -100,11 +104,14 @@
     .host-name {
       display: flex;
       align-items: center;
-      width: 93px;
+      width: 80px;
       height: 33px;
       font-size: 12px;
       font-weight: 500;
       color: #FF6060;
+      text-align: right;
+      line-height: 17px;
+
     }
     
     .host-picture {
@@ -119,7 +126,6 @@
     }
     
     .stars {
-      margin-right: 5px;
       height: 16px;
     }
     
@@ -128,6 +134,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: stretch;
+      margin: 26px 20px 0;
       gap: 0;
     }
   }
